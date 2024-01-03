@@ -1,3 +1,4 @@
+import 'package:class_gdsc/widgets/button.dart';
 import 'package:class_gdsc/widgets/container_SizeBox.dart';
 import 'package:class_gdsc/widgets/rows_col.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: Colors.amberAccent,
       ),
-      home: Container_Sized(),
+      home: ButtonWidget(),
     );
   }
 }
